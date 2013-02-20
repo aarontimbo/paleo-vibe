@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="disco-inferno" id="0" name="IngredientSpec" package="com.atimbo.paleovibe" tests="1" time="0.457" timestamp="2013-02-20T04:40:10">
+      <properties />
+
+      <testcase classname="com.atimbo.paleovibe.IngredientSpec" name="Add a new ingredient" time="0.441" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[--Output from Add a new ingredient--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="disco-inferno" id="1" name="RecipeSpec" package="com.atimbo.paleovibe" tests="1" time="0.047" timestamp="2013-02-20T04:40:11">
+      <properties />
+
+      <testcase classname="com.atimbo.paleovibe.RecipeSpec" name="Create a new recipe" time="0.045" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[--Output from Create a new recipe--
+]]></system-err>
+
+  </testsuite>
+</testsuites>

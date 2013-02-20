@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="disco-inferno" name="com.atimbo.paleovibe.RecipeSpec" tests="1" time="0.047" timestamp="2013-02-20T04:40:11">
+  <properties />
+  <testcase classname="com.atimbo.paleovibe.RecipeSpec" name="Create a new recipe" time="0.045" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[--Output from Create a new recipe--
+]]></system-err>
+</testsuite>

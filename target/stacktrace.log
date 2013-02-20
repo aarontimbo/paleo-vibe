@@ -1,0 +1,960 @@
+2013-02-18 23:01:18,177 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+Recipe.findByTitle(title)
+       |           |
+       null        Pork stew
+
+	at com.atimbo.paleovibe.RecipeSpec.create recipe(RecipeSpec.groovy:15)
+2013-02-18 23:01:18,182 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+Recipe.findByTitle(title)
+       |           |
+       null        Pork stew
+
+	at com.atimbo.paleovibe.RecipeSpec.create recipe(RecipeSpec.groovy:15)
+2013-02-18 23:01:18,193 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Recipe.findByTitle(title)
+       |           |
+       null        Pork stew
+
+	at com.atimbo.paleovibe.RecipeSpec.create recipe(RecipeSpec.groovy:15)
+2013-02-18 23:01:18,193 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Recipe.findByTitle(title)
+       |           |
+       null        Pork stew
+
+	at com.atimbo.paleovibe.RecipeSpec.create recipe(RecipeSpec.groovy:15)
+2013-02-18 23:01:18,198 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Recipe.findByTitle(title)
+       |           |
+       null        Pork stew
+
+	at com.atimbo.paleovibe.RecipeSpec.create recipe(RecipeSpec.groovy:15)
+2013-02-18 23:01:18,199 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Recipe.findByTitle(title)
+       |           |
+       null        Pork stew
+
+	at com.atimbo.paleovibe.RecipeSpec.create recipe(RecipeSpec.groovy:15)
+2013-02-19 22:01:13,955 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+Recipe.findByTitle(title)
+       |           |
+       null        Pork stew
+
+	at com.atimbo.paleovibe.RecipeSpec.create recipe(RecipeSpec.groovy:15)
+2013-02-19 22:01:13,959 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+Recipe.findByTitle(title)
+       |           |
+       null        Pork stew
+
+	at com.atimbo.paleovibe.RecipeSpec.create recipe(RecipeSpec.groovy:15)
+2013-02-19 22:01:13,976 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Recipe.findByTitle(title)
+       |           |
+       null        Pork stew
+
+	at com.atimbo.paleovibe.RecipeSpec.create recipe(RecipeSpec.groovy:15)
+2013-02-19 22:01:13,976 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Recipe.findByTitle(title)
+       |           |
+       null        Pork stew
+
+	at com.atimbo.paleovibe.RecipeSpec.create recipe(RecipeSpec.groovy:15)
+2013-02-19 22:01:13,982 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Recipe.findByTitle(title)
+       |           |
+       null        Pork stew
+
+	at com.atimbo.paleovibe.RecipeSpec.create recipe(RecipeSpec.groovy:15)
+2013-02-19 22:01:13,982 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Recipe.findByTitle(title)
+       |           |
+       null        Pork stew
+
+	at com.atimbo.paleovibe.RecipeSpec.create recipe(RecipeSpec.groovy:15)
+2013-02-19 22:14:14,871 [main] ERROR StackTrace  - Full Stack Trace:
+org.springframework.dao.InvalidDataAccessResourceUsageException: Cannot query [com.atimbo.paleovibe.Ingredient] on non-existent property: title
+	at org.grails.datastore.mapping.simple.query.SimpleMapQuery.getValidProperty(SimpleMapQuery.groovy:726)
+	at org.grails.datastore.mapping.simple.query.SimpleMapQuery.executeSubQueryInternal(SimpleMapQuery.groovy:664)
+	at org.grails.datastore.mapping.simple.query.SimpleMapQuery.executeSubQuery(SimpleMapQuery.groovy:650)
+	at org.grails.datastore.mapping.simple.query.SimpleMapQuery.executeQuery(SimpleMapQuery.groovy:63)
+	at org.grails.datastore.mapping.query.Query.list(Query.java:486)
+	at org.grails.datastore.gorm.finders.AbstractFindByFinder.invokeQuery(AbstractFindByFinder.java:34)
+	at org.grails.datastore.gorm.finders.AbstractFindByFinder$1.doInSession(AbstractFindByFinder.java:26)
+	at org.grails.datastore.mapping.core.DatastoreUtils.execute(DatastoreUtils.java:301)
+	at org.grails.datastore.gorm.finders.AbstractFinder.execute(AbstractFinder.java:40)
+	at org.grails.datastore.gorm.finders.AbstractFindByFinder.doInvokeInternal(AbstractFindByFinder.java:24)
+	at org.grails.datastore.gorm.finders.DynamicFinder.invoke(DynamicFinder.java:151)
+	at org.grails.datastore.gorm.finders.DynamicFinder.invoke(DynamicFinder.java:352)
+	at org.grails.datastore.gorm.GormStaticApi.methodMissing(GormStaticApi.groovy:108)
+	at com.atimbo.paleovibe.IngredientSpec.Add a new ingredient(IngredientSpec.groovy:20)
+2013-02-19 22:14:14,872 [main] ERROR StackTrace  - Full Stack Trace:
+org.springframework.dao.InvalidDataAccessResourceUsageException: Cannot query [com.atimbo.paleovibe.Ingredient] on non-existent property: title
+	at org.grails.datastore.mapping.simple.query.SimpleMapQuery.getValidProperty(SimpleMapQuery.groovy:726)
+	at org.grails.datastore.mapping.simple.query.SimpleMapQuery.executeSubQueryInternal(SimpleMapQuery.groovy:664)
+	at org.grails.datastore.mapping.simple.query.SimpleMapQuery.executeSubQuery(SimpleMapQuery.groovy:650)
+	at org.grails.datastore.mapping.simple.query.SimpleMapQuery.executeQuery(SimpleMapQuery.groovy:63)
+	at org.grails.datastore.mapping.query.Query.list(Query.java:486)
+	at org.grails.datastore.gorm.finders.AbstractFindByFinder.invokeQuery(AbstractFindByFinder.java:34)
+	at org.grails.datastore.gorm.finders.AbstractFindByFinder$1.doInSession(AbstractFindByFinder.java:26)
+	at org.grails.datastore.mapping.core.DatastoreUtils.execute(DatastoreUtils.java:301)
+	at org.grails.datastore.gorm.finders.AbstractFinder.execute(AbstractFinder.java:40)
+	at org.grails.datastore.gorm.finders.AbstractFindByFinder.doInvokeInternal(AbstractFindByFinder.java:24)
+	at org.grails.datastore.gorm.finders.DynamicFinder.invoke(DynamicFinder.java:151)
+	at org.grails.datastore.gorm.finders.DynamicFinder.invoke(DynamicFinder.java:352)
+	at org.grails.datastore.gorm.GormStaticApi.methodMissing(GormStaticApi.groovy:108)
+	at com.atimbo.paleovibe.IngredientSpec.Add a new ingredient(IngredientSpec.groovy:20)
+2013-02-19 22:14:14,875 [main] ERROR StackTrace  - Full Stack Trace:
+org.springframework.dao.InvalidDataAccessResourceUsageException: Cannot query [com.atimbo.paleovibe.Ingredient] on non-existent property: title
+	at org.grails.datastore.mapping.simple.query.SimpleMapQuery.getValidProperty(SimpleMapQuery.groovy:726)
+	at org.grails.datastore.mapping.simple.query.SimpleMapQuery.executeSubQueryInternal(SimpleMapQuery.groovy:664)
+	at org.grails.datastore.mapping.simple.query.SimpleMapQuery.executeSubQuery(SimpleMapQuery.groovy:650)
+	at org.grails.datastore.mapping.simple.query.SimpleMapQuery.executeQuery(SimpleMapQuery.groovy:63)
+	at org.grails.datastore.mapping.query.Query.list(Query.java:486)
+	at org.grails.datastore.gorm.finders.AbstractFindByFinder.invokeQuery(AbstractFindByFinder.java:34)
+	at org.grails.datastore.gorm.finders.AbstractFindByFinder$1.doInSession(AbstractFindByFinder.java:26)
+	at org.grails.datastore.mapping.core.DatastoreUtils.execute(DatastoreUtils.java:301)
+	at org.grails.datastore.gorm.finders.AbstractFinder.execute(AbstractFinder.java:40)
+	at org.grails.datastore.gorm.finders.AbstractFindByFinder.doInvokeInternal(AbstractFindByFinder.java:24)
+	at org.grails.datastore.gorm.finders.DynamicFinder.invoke(DynamicFinder.java:151)
+	at org.grails.datastore.gorm.finders.DynamicFinder.invoke(DynamicFinder.java:352)
+	at org.grails.datastore.gorm.GormStaticApi.methodMissing(GormStaticApi.groovy:108)
+	at com.atimbo.paleovibe.IngredientSpec.Add a new ingredient(IngredientSpec.groovy:20)
+2013-02-19 22:14:14,875 [main] ERROR StackTrace  - Full Stack Trace:
+org.springframework.dao.InvalidDataAccessResourceUsageException: Cannot query [com.atimbo.paleovibe.Ingredient] on non-existent property: title
+	at org.grails.datastore.mapping.simple.query.SimpleMapQuery.getValidProperty(SimpleMapQuery.groovy:726)
+	at org.grails.datastore.mapping.simple.query.SimpleMapQuery.executeSubQueryInternal(SimpleMapQuery.groovy:664)
+	at org.grails.datastore.mapping.simple.query.SimpleMapQuery.executeSubQuery(SimpleMapQuery.groovy:650)
+	at org.grails.datastore.mapping.simple.query.SimpleMapQuery.executeQuery(SimpleMapQuery.groovy:63)
+	at org.grails.datastore.mapping.query.Query.list(Query.java:486)
+	at org.grails.datastore.gorm.finders.AbstractFindByFinder.invokeQuery(AbstractFindByFinder.java:34)
+	at org.grails.datastore.gorm.finders.AbstractFindByFinder$1.doInSession(AbstractFindByFinder.java:26)
+	at org.grails.datastore.mapping.core.DatastoreUtils.execute(DatastoreUtils.java:301)
+	at org.grails.datastore.gorm.finders.AbstractFinder.execute(AbstractFinder.java:40)
+	at org.grails.datastore.gorm.finders.AbstractFindByFinder.doInvokeInternal(AbstractFindByFinder.java:24)
+	at org.grails.datastore.gorm.finders.DynamicFinder.invoke(DynamicFinder.java:151)
+	at org.grails.datastore.gorm.finders.DynamicFinder.invoke(DynamicFinder.java:352)
+	at org.grails.datastore.gorm.GormStaticApi.methodMissing(GormStaticApi.groovy:108)
+	at com.atimbo.paleovibe.IngredientSpec.Add a new ingredient(IngredientSpec.groovy:20)
+2013-02-19 22:14:14,881 [main] ERROR StackTrace  - Full Stack Trace:
+org.springframework.dao.InvalidDataAccessResourceUsageException: Cannot query [com.atimbo.paleovibe.Ingredient] on non-existent property: title
+	at org.grails.datastore.mapping.simple.query.SimpleMapQuery.getValidProperty(SimpleMapQuery.groovy:726)
+	at org.grails.datastore.mapping.simple.query.SimpleMapQuery.executeSubQueryInternal(SimpleMapQuery.groovy:664)
+	at org.grails.datastore.mapping.simple.query.SimpleMapQuery.executeSubQuery(SimpleMapQuery.groovy:650)
+	at org.grails.datastore.mapping.simple.query.SimpleMapQuery.executeQuery(SimpleMapQuery.groovy:63)
+	at org.grails.datastore.mapping.query.Query.list(Query.java:486)
+	at org.grails.datastore.gorm.finders.AbstractFindByFinder.invokeQuery(AbstractFindByFinder.java:34)
+	at org.grails.datastore.gorm.finders.AbstractFindByFinder$1.doInSession(AbstractFindByFinder.java:26)
+	at org.grails.datastore.mapping.core.DatastoreUtils.execute(DatastoreUtils.java:301)
+	at org.grails.datastore.gorm.finders.AbstractFinder.execute(AbstractFinder.java:40)
+	at org.grails.datastore.gorm.finders.AbstractFindByFinder.doInvokeInternal(AbstractFindByFinder.java:24)
+	at org.grails.datastore.gorm.finders.DynamicFinder.invoke(DynamicFinder.java:151)
+	at org.grails.datastore.gorm.finders.DynamicFinder.invoke(DynamicFinder.java:352)
+	at org.grails.datastore.gorm.GormStaticApi.methodMissing(GormStaticApi.groovy:108)
+	at com.atimbo.paleovibe.IngredientSpec.Add a new ingredient(IngredientSpec.groovy:20)
+2013-02-19 22:14:14,881 [main] ERROR StackTrace  - Full Stack Trace:
+org.springframework.dao.InvalidDataAccessResourceUsageException: Cannot query [com.atimbo.paleovibe.Ingredient] on non-existent property: title
+	at org.grails.datastore.mapping.simple.query.SimpleMapQuery.getValidProperty(SimpleMapQuery.groovy:726)
+	at org.grails.datastore.mapping.simple.query.SimpleMapQuery.executeSubQueryInternal(SimpleMapQuery.groovy:664)
+	at org.grails.datastore.mapping.simple.query.SimpleMapQuery.executeSubQuery(SimpleMapQuery.groovy:650)
+	at org.grails.datastore.mapping.simple.query.SimpleMapQuery.executeQuery(SimpleMapQuery.groovy:63)
+	at org.grails.datastore.mapping.query.Query.list(Query.java:486)
+	at org.grails.datastore.gorm.finders.AbstractFindByFinder.invokeQuery(AbstractFindByFinder.java:34)
+	at org.grails.datastore.gorm.finders.AbstractFindByFinder$1.doInSession(AbstractFindByFinder.java:26)
+	at org.grails.datastore.mapping.core.DatastoreUtils.execute(DatastoreUtils.java:301)
+	at org.grails.datastore.gorm.finders.AbstractFinder.execute(AbstractFinder.java:40)
+	at org.grails.datastore.gorm.finders.AbstractFindByFinder.doInvokeInternal(AbstractFindByFinder.java:24)
+	at org.grails.datastore.gorm.finders.DynamicFinder.invoke(DynamicFinder.java:151)
+	at org.grails.datastore.gorm.finders.DynamicFinder.invoke(DynamicFinder.java:352)
+	at org.grails.datastore.gorm.GormStaticApi.methodMissing(GormStaticApi.groovy:108)
+	at com.atimbo.paleovibe.IngredientSpec.Add a new ingredient(IngredientSpec.groovy:20)
+2013-02-19 22:14:15,138 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+Recipe.findByTitle(title)
+       |           |
+       null        Pork stew
+
+	at com.atimbo.paleovibe.RecipeSpec.create recipe(RecipeSpec.groovy:15)
+2013-02-19 22:14:15,140 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+Recipe.findByTitle(title)
+       |           |
+       null        Pork stew
+
+	at com.atimbo.paleovibe.RecipeSpec.create recipe(RecipeSpec.groovy:15)
+2013-02-19 22:14:15,151 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Recipe.findByTitle(title)
+       |           |
+       null        Pork stew
+
+	at com.atimbo.paleovibe.RecipeSpec.create recipe(RecipeSpec.groovy:15)
+2013-02-19 22:14:15,151 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Recipe.findByTitle(title)
+       |           |
+       null        Pork stew
+
+	at com.atimbo.paleovibe.RecipeSpec.create recipe(RecipeSpec.groovy:15)
+2013-02-19 22:14:15,151 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Recipe.findByTitle(title)
+       |           |
+       null        Pork stew
+
+	at com.atimbo.paleovibe.RecipeSpec.create recipe(RecipeSpec.groovy:15)
+2013-02-19 22:14:15,151 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Recipe.findByTitle(title)
+       |           |
+       null        Pork stew
+
+	at com.atimbo.paleovibe.RecipeSpec.create recipe(RecipeSpec.groovy:15)
+2013-02-19 22:21:12,895 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+Ingredient.findByTitle(title)
+           |           |
+           null        ground cumin
+
+	at com.atimbo.paleovibe.IngredientSpec.Add a new ingredient(IngredientSpec.groovy:21)
+2013-02-19 22:21:12,899 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+Ingredient.findByTitle(title)
+           |           |
+           null        ground cumin
+
+	at com.atimbo.paleovibe.IngredientSpec.Add a new ingredient(IngredientSpec.groovy:21)
+2013-02-19 22:21:12,911 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Ingredient.findByTitle(title)
+           |           |
+           null        ground cumin
+
+	at com.atimbo.paleovibe.IngredientSpec.Add a new ingredient(IngredientSpec.groovy:21)
+2013-02-19 22:21:12,911 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Ingredient.findByTitle(title)
+           |           |
+           null        ground cumin
+
+	at com.atimbo.paleovibe.IngredientSpec.Add a new ingredient(IngredientSpec.groovy:21)
+2013-02-19 22:21:12,916 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Ingredient.findByTitle(title)
+           |           |
+           null        ground cumin
+
+	at com.atimbo.paleovibe.IngredientSpec.Add a new ingredient(IngredientSpec.groovy:21)
+2013-02-19 22:21:12,916 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Ingredient.findByTitle(title)
+           |           |
+           null        ground cumin
+
+	at com.atimbo.paleovibe.IngredientSpec.Add a new ingredient(IngredientSpec.groovy:21)
+2013-02-19 22:21:13,177 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+Recipe.findByTitle(title)
+       |           |
+       null        Pork stew
+
+	at com.atimbo.paleovibe.RecipeSpec.create recipe(RecipeSpec.groovy:15)
+2013-02-19 22:21:13,177 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+Recipe.findByTitle(title)
+       |           |
+       null        Pork stew
+
+	at com.atimbo.paleovibe.RecipeSpec.create recipe(RecipeSpec.groovy:15)
+2013-02-19 22:21:13,178 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Recipe.findByTitle(title)
+       |           |
+       null        Pork stew
+
+	at com.atimbo.paleovibe.RecipeSpec.create recipe(RecipeSpec.groovy:15)
+2013-02-19 22:21:13,178 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Recipe.findByTitle(title)
+       |           |
+       null        Pork stew
+
+	at com.atimbo.paleovibe.RecipeSpec.create recipe(RecipeSpec.groovy:15)
+2013-02-19 22:21:13,178 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Recipe.findByTitle(title)
+       |           |
+       null        Pork stew
+
+	at com.atimbo.paleovibe.RecipeSpec.create recipe(RecipeSpec.groovy:15)
+2013-02-19 22:21:13,178 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Recipe.findByTitle(title)
+       |           |
+       null        Pork stew
+
+	at com.atimbo.paleovibe.RecipeSpec.create recipe(RecipeSpec.groovy:15)
+2013-02-19 22:23:23,238 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+Ingredient.findByTitle(title)
+           |           |
+           null        ground cumin
+
+	at com.atimbo.paleovibe.IngredientSpec.Add a new ingredient(IngredientSpec.groovy:22)
+2013-02-19 22:23:23,241 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+Ingredient.findByTitle(title)
+           |           |
+           null        ground cumin
+
+	at com.atimbo.paleovibe.IngredientSpec.Add a new ingredient(IngredientSpec.groovy:22)
+2013-02-19 22:23:23,254 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Ingredient.findByTitle(title)
+           |           |
+           null        ground cumin
+
+	at com.atimbo.paleovibe.IngredientSpec.Add a new ingredient(IngredientSpec.groovy:22)
+2013-02-19 22:23:23,254 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Ingredient.findByTitle(title)
+           |           |
+           null        ground cumin
+
+	at com.atimbo.paleovibe.IngredientSpec.Add a new ingredient(IngredientSpec.groovy:22)
+2013-02-19 22:23:23,260 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Ingredient.findByTitle(title)
+           |           |
+           null        ground cumin
+
+	at com.atimbo.paleovibe.IngredientSpec.Add a new ingredient(IngredientSpec.groovy:22)
+2013-02-19 22:23:23,260 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Ingredient.findByTitle(title)
+           |           |
+           null        ground cumin
+
+	at com.atimbo.paleovibe.IngredientSpec.Add a new ingredient(IngredientSpec.groovy:22)
+2013-02-19 22:23:23,329 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+Recipe.findByTitle(title)
+       |           |
+       null        Pork stew
+
+	at com.atimbo.paleovibe.RecipeSpec.create recipe(RecipeSpec.groovy:15)
+2013-02-19 22:23:23,329 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+Recipe.findByTitle(title)
+       |           |
+       null        Pork stew
+
+	at com.atimbo.paleovibe.RecipeSpec.create recipe(RecipeSpec.groovy:15)
+2013-02-19 22:23:23,329 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Recipe.findByTitle(title)
+       |           |
+       null        Pork stew
+
+	at com.atimbo.paleovibe.RecipeSpec.create recipe(RecipeSpec.groovy:15)
+2013-02-19 22:23:23,330 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Recipe.findByTitle(title)
+       |           |
+       null        Pork stew
+
+	at com.atimbo.paleovibe.RecipeSpec.create recipe(RecipeSpec.groovy:15)
+2013-02-19 22:23:23,330 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Recipe.findByTitle(title)
+       |           |
+       null        Pork stew
+
+	at com.atimbo.paleovibe.RecipeSpec.create recipe(RecipeSpec.groovy:15)
+2013-02-19 22:23:23,330 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Recipe.findByTitle(title)
+       |           |
+       null        Pork stew
+
+	at com.atimbo.paleovibe.RecipeSpec.create recipe(RecipeSpec.groovy:15)
+2013-02-19 22:29:37,564 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+Ingredient.findByTitle(title)
+           |           |
+           null        ground cumin
+
+	at com.atimbo.paleovibe.IngredientSpec.Add a new ingredient(IngredientSpec.groovy:28)
+2013-02-19 22:29:37,567 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+Ingredient.findByTitle(title)
+           |           |
+           null        ground cumin
+
+	at com.atimbo.paleovibe.IngredientSpec.Add a new ingredient(IngredientSpec.groovy:28)
+2013-02-19 22:29:37,579 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Ingredient.findByTitle(title)
+           |           |
+           null        ground cumin
+
+	at com.atimbo.paleovibe.IngredientSpec.Add a new ingredient(IngredientSpec.groovy:28)
+2013-02-19 22:29:37,579 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Ingredient.findByTitle(title)
+           |           |
+           null        ground cumin
+
+	at com.atimbo.paleovibe.IngredientSpec.Add a new ingredient(IngredientSpec.groovy:28)
+2013-02-19 22:29:37,585 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Ingredient.findByTitle(title)
+           |           |
+           null        ground cumin
+
+	at com.atimbo.paleovibe.IngredientSpec.Add a new ingredient(IngredientSpec.groovy:28)
+2013-02-19 22:29:37,585 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Ingredient.findByTitle(title)
+           |           |
+           null        ground cumin
+
+	at com.atimbo.paleovibe.IngredientSpec.Add a new ingredient(IngredientSpec.groovy:28)
+2013-02-19 22:29:37,657 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+Recipe.findByTitle(title)
+       |           |
+       null        Pork stew
+
+	at com.atimbo.paleovibe.RecipeSpec.create recipe(RecipeSpec.groovy:15)
+2013-02-19 22:29:37,657 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+Recipe.findByTitle(title)
+       |           |
+       null        Pork stew
+
+	at com.atimbo.paleovibe.RecipeSpec.create recipe(RecipeSpec.groovy:15)
+2013-02-19 22:29:37,658 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Recipe.findByTitle(title)
+       |           |
+       null        Pork stew
+
+	at com.atimbo.paleovibe.RecipeSpec.create recipe(RecipeSpec.groovy:15)
+2013-02-19 22:29:37,658 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Recipe.findByTitle(title)
+       |           |
+       null        Pork stew
+
+	at com.atimbo.paleovibe.RecipeSpec.create recipe(RecipeSpec.groovy:15)
+2013-02-19 22:29:37,658 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Recipe.findByTitle(title)
+       |           |
+       null        Pork stew
+
+	at com.atimbo.paleovibe.RecipeSpec.create recipe(RecipeSpec.groovy:15)
+2013-02-19 22:29:37,658 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Recipe.findByTitle(title)
+       |           |
+       null        Pork stew
+
+	at com.atimbo.paleovibe.RecipeSpec.create recipe(RecipeSpec.groovy:15)
+2013-02-19 22:30:20,890 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+Ingredient.findByTitle(title)
+           |           |
+           null        ground cumin
+
+	at com.atimbo.paleovibe.IngredientSpec.Add a new ingredient(IngredientSpec.groovy:28)
+2013-02-19 22:30:20,894 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+Ingredient.findByTitle(title)
+           |           |
+           null        ground cumin
+
+	at com.atimbo.paleovibe.IngredientSpec.Add a new ingredient(IngredientSpec.groovy:28)
+2013-02-19 22:30:20,905 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Ingredient.findByTitle(title)
+           |           |
+           null        ground cumin
+
+	at com.atimbo.paleovibe.IngredientSpec.Add a new ingredient(IngredientSpec.groovy:28)
+2013-02-19 22:30:20,905 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Ingredient.findByTitle(title)
+           |           |
+           null        ground cumin
+
+	at com.atimbo.paleovibe.IngredientSpec.Add a new ingredient(IngredientSpec.groovy:28)
+2013-02-19 22:30:20,912 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Ingredient.findByTitle(title)
+           |           |
+           null        ground cumin
+
+	at com.atimbo.paleovibe.IngredientSpec.Add a new ingredient(IngredientSpec.groovy:28)
+2013-02-19 22:30:20,912 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Ingredient.findByTitle(title)
+           |           |
+           null        ground cumin
+
+	at com.atimbo.paleovibe.IngredientSpec.Add a new ingredient(IngredientSpec.groovy:28)
+2013-02-19 22:30:20,979 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+Recipe.findByTitle(title)
+       |           |
+       null        Pork stew
+
+	at com.atimbo.paleovibe.RecipeSpec.create recipe(RecipeSpec.groovy:15)
+2013-02-19 22:30:20,979 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+Recipe.findByTitle(title)
+       |           |
+       null        Pork stew
+
+	at com.atimbo.paleovibe.RecipeSpec.create recipe(RecipeSpec.groovy:15)
+2013-02-19 22:30:20,980 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Recipe.findByTitle(title)
+       |           |
+       null        Pork stew
+
+	at com.atimbo.paleovibe.RecipeSpec.create recipe(RecipeSpec.groovy:15)
+2013-02-19 22:30:20,980 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Recipe.findByTitle(title)
+       |           |
+       null        Pork stew
+
+	at com.atimbo.paleovibe.RecipeSpec.create recipe(RecipeSpec.groovy:15)
+2013-02-19 22:30:20,980 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Recipe.findByTitle(title)
+       |           |
+       null        Pork stew
+
+	at com.atimbo.paleovibe.RecipeSpec.create recipe(RecipeSpec.groovy:15)
+2013-02-19 22:30:20,980 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Recipe.findByTitle(title)
+       |           |
+       null        Pork stew
+
+	at com.atimbo.paleovibe.RecipeSpec.create recipe(RecipeSpec.groovy:15)
+2013-02-19 22:32:02,054 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+Ingredient.findByTitle(title)
+           |           |
+           null        ground cumin
+
+	at com.atimbo.paleovibe.IngredientSpec.Add a new ingredient(IngredientSpec.groovy:28)
+2013-02-19 22:32:02,058 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+Ingredient.findByTitle(title)
+           |           |
+           null        ground cumin
+
+	at com.atimbo.paleovibe.IngredientSpec.Add a new ingredient(IngredientSpec.groovy:28)
+2013-02-19 22:32:02,071 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Ingredient.findByTitle(title)
+           |           |
+           null        ground cumin
+
+	at com.atimbo.paleovibe.IngredientSpec.Add a new ingredient(IngredientSpec.groovy:28)
+2013-02-19 22:32:02,071 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Ingredient.findByTitle(title)
+           |           |
+           null        ground cumin
+
+	at com.atimbo.paleovibe.IngredientSpec.Add a new ingredient(IngredientSpec.groovy:28)
+2013-02-19 22:32:02,077 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Ingredient.findByTitle(title)
+           |           |
+           null        ground cumin
+
+	at com.atimbo.paleovibe.IngredientSpec.Add a new ingredient(IngredientSpec.groovy:28)
+2013-02-19 22:32:02,077 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Ingredient.findByTitle(title)
+           |           |
+           null        ground cumin
+
+	at com.atimbo.paleovibe.IngredientSpec.Add a new ingredient(IngredientSpec.groovy:28)
+2013-02-19 22:32:02,156 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+Recipe.findByTitle(title)
+       |           |
+       null        Pork stew
+
+	at com.atimbo.paleovibe.RecipeSpec.create recipe(RecipeSpec.groovy:15)
+2013-02-19 22:32:02,157 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+Recipe.findByTitle(title)
+       |           |
+       null        Pork stew
+
+	at com.atimbo.paleovibe.RecipeSpec.create recipe(RecipeSpec.groovy:15)
+2013-02-19 22:32:02,158 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Recipe.findByTitle(title)
+       |           |
+       null        Pork stew
+
+	at com.atimbo.paleovibe.RecipeSpec.create recipe(RecipeSpec.groovy:15)
+2013-02-19 22:32:02,158 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Recipe.findByTitle(title)
+       |           |
+       null        Pork stew
+
+	at com.atimbo.paleovibe.RecipeSpec.create recipe(RecipeSpec.groovy:15)
+2013-02-19 22:32:02,158 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Recipe.findByTitle(title)
+       |           |
+       null        Pork stew
+
+	at com.atimbo.paleovibe.RecipeSpec.create recipe(RecipeSpec.groovy:15)
+2013-02-19 22:32:02,158 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Recipe.findByTitle(title)
+       |           |
+       null        Pork stew
+
+	at com.atimbo.paleovibe.RecipeSpec.create recipe(RecipeSpec.groovy:15)
+2013-02-19 22:33:04,486 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+Ingredient.findByTitle(title)
+           |           |
+           null        ground cumin
+
+	at com.atimbo.paleovibe.IngredientSpec.Add a new ingredient(IngredientSpec.groovy:28)
+2013-02-19 22:33:04,490 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+Ingredient.findByTitle(title)
+           |           |
+           null        ground cumin
+
+	at com.atimbo.paleovibe.IngredientSpec.Add a new ingredient(IngredientSpec.groovy:28)
+2013-02-19 22:33:04,502 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Ingredient.findByTitle(title)
+           |           |
+           null        ground cumin
+
+	at com.atimbo.paleovibe.IngredientSpec.Add a new ingredient(IngredientSpec.groovy:28)
+2013-02-19 22:33:04,502 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Ingredient.findByTitle(title)
+           |           |
+           null        ground cumin
+
+	at com.atimbo.paleovibe.IngredientSpec.Add a new ingredient(IngredientSpec.groovy:28)
+2013-02-19 22:33:04,508 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Ingredient.findByTitle(title)
+           |           |
+           null        ground cumin
+
+	at com.atimbo.paleovibe.IngredientSpec.Add a new ingredient(IngredientSpec.groovy:28)
+2013-02-19 22:33:04,508 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Ingredient.findByTitle(title)
+           |           |
+           null        ground cumin
+
+	at com.atimbo.paleovibe.IngredientSpec.Add a new ingredient(IngredientSpec.groovy:28)
+2013-02-19 22:33:04,566 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+Recipe.findByTitle(title)
+       |           |
+       null        Pork stew
+
+	at com.atimbo.paleovibe.RecipeSpec.create recipe(RecipeSpec.groovy:15)
+2013-02-19 22:33:04,566 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+Recipe.findByTitle(title)
+       |           |
+       null        Pork stew
+
+	at com.atimbo.paleovibe.RecipeSpec.create recipe(RecipeSpec.groovy:15)
+2013-02-19 22:33:04,567 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Recipe.findByTitle(title)
+       |           |
+       null        Pork stew
+
+	at com.atimbo.paleovibe.RecipeSpec.create recipe(RecipeSpec.groovy:15)
+2013-02-19 22:33:04,567 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Recipe.findByTitle(title)
+       |           |
+       null        Pork stew
+
+	at com.atimbo.paleovibe.RecipeSpec.create recipe(RecipeSpec.groovy:15)
+2013-02-19 22:33:04,568 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Recipe.findByTitle(title)
+       |           |
+       null        Pork stew
+
+	at com.atimbo.paleovibe.RecipeSpec.create recipe(RecipeSpec.groovy:15)
+2013-02-19 22:33:04,568 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Recipe.findByTitle(title)
+       |           |
+       null        Pork stew
+
+	at com.atimbo.paleovibe.RecipeSpec.create recipe(RecipeSpec.groovy:15)
+2013-02-19 22:33:46,272 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+Recipe.findByTitle(title)
+       |           |
+       null        Pork stew
+
+	at com.atimbo.paleovibe.RecipeSpec.create recipe(RecipeSpec.groovy:15)
+2013-02-19 22:33:46,275 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+Recipe.findByTitle(title)
+       |           |
+       null        Pork stew
+
+	at com.atimbo.paleovibe.RecipeSpec.create recipe(RecipeSpec.groovy:15)
+2013-02-19 22:33:46,285 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Recipe.findByTitle(title)
+       |           |
+       null        Pork stew
+
+	at com.atimbo.paleovibe.RecipeSpec.create recipe(RecipeSpec.groovy:15)
+2013-02-19 22:33:46,285 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Recipe.findByTitle(title)
+       |           |
+       null        Pork stew
+
+	at com.atimbo.paleovibe.RecipeSpec.create recipe(RecipeSpec.groovy:15)
+2013-02-19 22:33:46,288 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Recipe.findByTitle(title)
+       |           |
+       null        Pork stew
+
+	at com.atimbo.paleovibe.RecipeSpec.create recipe(RecipeSpec.groovy:15)
+2013-02-19 22:33:46,289 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Recipe.findByTitle(title)
+       |           |
+       null        Pork stew
+
+	at com.atimbo.paleovibe.RecipeSpec.create recipe(RecipeSpec.groovy:15)
+2013-02-19 22:35:58,028 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+Recipe.findByTitle(title)
+       |           |
+       null        Pork stew
+
+	at com.atimbo.paleovibe.RecipeSpec.create recipe(RecipeSpec.groovy:15)
+2013-02-19 22:35:58,031 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+Recipe.findByTitle(title)
+       |           |
+       null        Pork stew
+
+	at com.atimbo.paleovibe.RecipeSpec.create recipe(RecipeSpec.groovy:15)
+2013-02-19 22:35:58,041 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Recipe.findByTitle(title)
+       |           |
+       null        Pork stew
+
+	at com.atimbo.paleovibe.RecipeSpec.create recipe(RecipeSpec.groovy:15)
+2013-02-19 22:35:58,041 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Recipe.findByTitle(title)
+       |           |
+       null        Pork stew
+
+	at com.atimbo.paleovibe.RecipeSpec.create recipe(RecipeSpec.groovy:15)
+2013-02-19 22:35:58,044 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Recipe.findByTitle(title)
+       |           |
+       null        Pork stew
+
+	at com.atimbo.paleovibe.RecipeSpec.create recipe(RecipeSpec.groovy:15)
+2013-02-19 22:35:58,044 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Recipe.findByTitle(title)
+       |           |
+       null        Pork stew
+
+	at com.atimbo.paleovibe.RecipeSpec.create recipe(RecipeSpec.groovy:15)
+2013-02-19 22:38:22,027 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+Recipe.findByTitle(title)
+       |           |
+       null        Pork stew
+
+	at com.atimbo.paleovibe.RecipeSpec.create recipe(RecipeSpec.groovy:21)
+2013-02-19 22:38:22,030 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+Recipe.findByTitle(title)
+       |           |
+       null        Pork stew
+
+	at com.atimbo.paleovibe.RecipeSpec.create recipe(RecipeSpec.groovy:21)
+2013-02-19 22:38:22,041 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Recipe.findByTitle(title)
+       |           |
+       null        Pork stew
+
+	at com.atimbo.paleovibe.RecipeSpec.create recipe(RecipeSpec.groovy:21)
+2013-02-19 22:38:22,041 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Recipe.findByTitle(title)
+       |           |
+       null        Pork stew
+
+	at com.atimbo.paleovibe.RecipeSpec.create recipe(RecipeSpec.groovy:21)
+2013-02-19 22:38:22,045 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Recipe.findByTitle(title)
+       |           |
+       null        Pork stew
+
+	at com.atimbo.paleovibe.RecipeSpec.create recipe(RecipeSpec.groovy:21)
+2013-02-19 22:38:22,046 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Recipe.findByTitle(title)
+       |           |
+       null        Pork stew
+
+	at com.atimbo.paleovibe.RecipeSpec.create recipe(RecipeSpec.groovy:21)
