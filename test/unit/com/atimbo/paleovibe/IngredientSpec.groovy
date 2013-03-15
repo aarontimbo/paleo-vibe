@@ -1,9 +1,11 @@
 package com.atimbo.paleovibe
 
 import com.atimbo.util.UnitOfMeasure
-import grails.plugin.spock.UnitSpec
+import grails.test.mixin.TestFor
+import spock.lang.Specification
 
-class IngredientSpec extends UnitSpec {
+@TestFor(Ingredient)
+class IngredientSpec extends Specification {
 
     def setup() {
     }
@@ -12,17 +14,15 @@ class IngredientSpec extends UnitSpec {
     }
 
     void "Add a new ingredient"() {
-        given:
-        mockDomain(Ingredient)
 
-        when:
+        when: "a new ingredient is created"
         new Ingredient(
                 title: title,
                 amount: 0.5,
                 unitOfMeasure: UnitOfMeasure.TABLESPOON
         ).save()
 
-        then:
+        then: "the ingredient can be found"
         assert Ingredient.findByTitle(title)
 
         where:
