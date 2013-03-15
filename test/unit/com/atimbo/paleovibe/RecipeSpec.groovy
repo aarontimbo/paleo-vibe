@@ -1,15 +1,15 @@
 package com.atimbo.paleovibe
 
 import com.atimbo.util.Rating
-import grails.plugin.spock.UnitSpec
+import grails.test.mixin.TestFor
+import spock.lang.Specification
 
-class RecipeSpec extends UnitSpec {
+@TestFor(Recipe)
+class RecipeSpec extends Specification {
 
     void "Create a new recipe"() {
-       given:
-       mockDomain(Recipe)
 
-       when:
+       when: "a recipe is created"
        new Recipe(
                title: title,
                rating: Rating.GOOD,
@@ -17,7 +17,7 @@ class RecipeSpec extends UnitSpec {
                userUpdated: user
        ).save()
 
-       then:
+       then: "the recipe exists"
        assert Recipe.findByTitle(title)
 
        where:
