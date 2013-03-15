@@ -15,6 +15,7 @@ grails.project.dependency.resolution = {
     log "warn" // log level of Ivy resolver, either 'error', 'warn', 'info', 'debug' or 'verbose'
     checksums true // Whether to verify checksums on resolve
 
+    pom true
     repositories {
         inherits true // Whether to inherit repository definitions from plugins
 
@@ -22,8 +23,8 @@ grails.project.dependency.resolution = {
         grailsHome()
         grailsCentral()
 
-        //mavenLocal()
-        //mavenCentral()
+        mavenLocal()
+        mavenCentral()
 
         // uncomment these (or add new ones) to enable remote dependency resolution from public Maven repositories
         //mavenRepo "http://snapshots.repository.codehaus.org"
@@ -35,6 +36,9 @@ grails.project.dependency.resolution = {
         // specify dependencies here under either 'build', 'compile', 'runtime', 'test' or 'provided' scopes eg.
 
         // runtime 'mysql:mysql-connector-java:5.1.20'
+        test "org.spockframework:spock-grails-support:0.7-groovy-2.0"
+
+        compile "nutrient-data:nutrient-data:0.1"
     }
 
     plugins {
@@ -52,8 +56,9 @@ grails.project.dependency.resolution = {
         runtime ":database-migration:1.1"
 
         compile ':cache:1.0.0'
-        compile ":nutrient-data:0.3.2"
 
-        test ":spock:0.7"
+        test (":spock:0.7") {
+            exclude "spock-grails-support"
+        }
     }
 }
